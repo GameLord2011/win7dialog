@@ -1,6 +1,6 @@
 {
   "name": "win7dialog",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A simple windows 7 dialog react component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
