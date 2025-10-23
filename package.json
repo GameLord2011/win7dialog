@@ -12,7 +12,7 @@
     "windows 7"
   ],
   "author": "GameLord2011",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.18.2",
   "dependencies": {
     "7.css": "^0.21.1",
