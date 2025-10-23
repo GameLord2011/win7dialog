@@ -16,8 +16,13 @@
   "packageManager": "pnpm@10.18.2",
   "dependencies": {
     "7.css": "^0.21.1",
-    "@types/react": "^19.2.2",
     "react": "^19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.9.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
     "typescript": "^5.9.3"
   }
 }
