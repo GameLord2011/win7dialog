@@ -1,3 +1,3 @@
-This is a work in progress react component that provides a simple dialog.
+# This is a work in progress react component that provides a simple dialog
 
 TODO: make this contain informaton that you can use, at the moment, checkout the source of the code, GameLord2011/my-website
