@@ -1,7 +1,7 @@
 "use client";
 
-import "7.css/dist/7.scoped.css";
-import React from "react";
+//import "7.css/dist/7.scoped.css";
+import React, { useLayoutEffect } from "react";
 import { useRef } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -20,6 +20,18 @@ const Win7Dialog = forwardRef<
     const win7DialogRef = useRef<HTMLDialogElement>(null);
     const titleBarRef = useRef<HTMLDivElement>(null);
     const windowRef = useRef<HTMLDivElement>(null);
+    const id = "win7-style";
+
+    useLayoutEffect(() => {
+        if(!document.getElementById(id)) {
+            const link = document.createElement("link");
+            link.id = id;
+            link.rel = "stylesheet";
+            link.href = "https://unpkg.com/7.css/dist/7.scoped.css"; // or local `/node_modules/...`
+            document.head.appendChild(link);
+        }
+    }, []);
+
 
     const barColorVar = barColor ? {
         '--w7-w-bg': barColor
